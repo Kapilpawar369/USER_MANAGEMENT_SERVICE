@@ -3,7 +3,7 @@
 # Imported by: services/* modules and can be used in exception handlers.
 
 class NotFoundError(Exception):
-    """Raised when a resource is not found."""
+    """Raised when a response is not found."""
 
 
 class BadRequestError(Exception):
@@ -11,4 +11,4 @@ class BadRequestError(Exception):
 
 
 class ConflictError(Exception):
-    """Raised when a resource already exists (e.g., duplicate email)."""
+    """Raised when a response already exists (e.g., duplicate email)."""
